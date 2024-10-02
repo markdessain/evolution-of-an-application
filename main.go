@@ -5,5 +5,9 @@ import (
 )
 
 func main() {
-	fmt.Println("Evolution")
+	fmt.Println(name())
+}
+
+func name() string {
+	return "Evolution"
 }
